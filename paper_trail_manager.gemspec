@@ -4,7 +4,7 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'paper_trail_manager'
+  spec.name          = 'paper_trail_manager_rails_5'
   spec.version       = '0.7.1'
   spec.authors       = ['Igal Koshevoy', 'Reid Beels']
   spec.authors       = ['mail@reidbeels.com']
