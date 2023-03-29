@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'paper_trail_manager_rails_5'
-  spec.version       = '0.7.1'
+  spec.version       = '0.7.2'
   spec.authors       = ['Igal Koshevoy', 'Reid Beels']
   spec.authors       = ['mail@reidbeels.com']
   spec.summary       = 'A user interface for `paper_trail` versioning data in Rails applications.'
