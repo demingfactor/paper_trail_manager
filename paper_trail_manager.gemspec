@@ -4,8 +4,8 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'paper_trail_manager_rails_5'
-  spec.version       = '0.7.2'
+  spec.name          = 'paper_trail_manager_rails_6'
+  spec.version       = '0.7.3'
   spec.authors       = ['Igal Koshevoy', 'Reid Beels']
   spec.authors       = ['mail@reidbeels.com']
   spec.summary       = 'A user interface for `paper_trail` versioning data in Rails applications.'
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'paper_trail', ['~> 10.3.1']
+  spec.add_dependency 'paper_trail', ['~> 11.1']
   spec.add_dependency 'rails', ['>= 3.0', '< 7.0']
 
   spec.add_development_dependency 'appraisal', '~> 1.0'
