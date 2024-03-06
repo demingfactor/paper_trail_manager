@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-gem 'paper_trail_manager_rails_6', path: __FILE__ + '/../../../'
+gem 'demingfactor-paper_trail_manager', path: __FILE__ + '/../../../'
 
 unless File.exist?('app/assets/config/manifest.js')
   create_file 'app/assets/config/manifest.js'
